@@ -1,0 +1,113 @@
+.pricing_plans_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+.pricing_plans_section_container {
+  max-width: 1600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.pricing_plan_section_shape {
+  position: absolute;
+  bottom: 0px;
+  left: 238px;
+}
+.pricing_plans_section_wrapper {
+  margin-top: 89px;
+  /* margin-bottom: 100px; */
+}
+.pricing_plans_section_heading {
+  font-size: 42px;
+  font-weight: 600;
+  color: var(--h1-and-text-color);
+  font-family: var(--heading-font);
+  letter-spacing: -4px;
+  line-height: 52px;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: -5px;
+  text-decoration-color: #22e27f;
+  text-decoration-skip-ink: none;
+  text-align: center;
+  margin-bottom: 61px;
+}
+.monthly_and_yearly_pakage {
+  display: flex;
+  gap: 40px;
+}
+.monthly_pakage {
+  text-align: center;
+  background: #fff;
+  border: 1px solid #e4e4e7;
+  border-radius: 10px;
+  padding: 50px 51px;
+}
+.yearly_pakage {
+  text-align: center;
+  background: #fff;
+  border: 1px solid #e4e4e7;
+  border-radius: 10px;
+  padding: 50px 51px;
+}
+.monthly_pakage_heading {
+  font-size: 18px;
+  font-style: 700;
+  font-family: var(--h1-and-text-color);
+  font-family: var(--st-font);
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+.monthly_pakage_details {
+  font-family: var(--st-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--h1-and-text-color);
+  opacity: 70%;
+  margin-bottom: 32px;
+}
+.cost {
+  font-family: var(--st-font);
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 36px;
+  color: var(--h1-and-text-color);
+  margin-bottom: 40px;
+}
+.monthly_pakage_section_button {
+  padding: 16px 34px;
+  font-family: var(--st-font);
+  font-weight: 700;
+  color: var(--h1-and-text-color);
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid rgba(161, 161, 170, 0.302);
+}
+.monthly_pakage_section_button_card_two {
+  padding: 16px 34px;
+  font-family: var(--st-font);
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 10px;
+  background: #2b59ff;
+  border: 1px solid #2b59ff;
+}
+.pricing_plans_section_conclusion_text {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
+  font-family: var(--st-font);
+  font-weight: 400;
+  color: #3f3f46;
+  line-height: 26px;
+  padding-bottom: 100px;
+}

@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+input[type="button"] {
+  cursor: pointer;
+}
+
+:root {
+  --st-font: "Inter", sans-serif;
+  --heading-font: "Lexend Exa", sans-serif;
+  --h1-and-text-color: #12141d;
+  --btn-color: #2b59ff;
+  --brand-sec-bg: #3a3c40;
+}
+/* Nav start */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 282px;
+  margin-top: 24px;
+}
+nav .logo .nav_logo img {
+  height: 30.01px;
+  width: 100px;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 35px;
+}
+nav ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--h1-and-text-color);
+  font-family: var(--st-font);
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+nav .btn {
+  height: 50px;
+  width: 168px;
+  background: #2b59ff;
+  border-radius: 10px;
+  border: var(--btn_color);
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  font-family: var(--st-font);
+}
+/* Nav end */

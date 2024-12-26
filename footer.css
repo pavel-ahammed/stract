@@ -1,0 +1,119 @@
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collaboration {
+  max-width: 1600px;
+  width: 100%;
+  padding: 103px 152px 40px 152px;
+}
+.collaboration_heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.collaboration_heading_wrapper {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.collaboration_heading_text {
+  font-size: 42px;
+  font-weight: 600;
+  font-family: var(--heading-font);
+  color: var(--h1-and-text-color);
+  line-height: 52px;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-decoration-color: #22e27f;
+  text-decoration-skip-ink: none;
+  text-underline-offset: -5px;
+  letter-spacing: -4px;
+}
+.collaboration_button {
+  border-radius: 10px;
+  font-family: var(--st-font);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  background: #2b59ff;
+  border: 1px solid #2b59ff;
+  color: #fff;
+  padding: 13px 40px;
+}
+.footer_bottom_section {
+  margin-top: 136px;
+}
+.footer_bottom_section_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 41px;
+  border-bottom: 1px solid rgba(32, 31, 34, 8%);
+}
+.footer_item {
+  display: flex;
+  align-items: center;
+  gap: 262px;
+}
+.footer_list ul {
+  display: flex;
+  gap: 66px;
+}
+.footer_logo img {
+  text-decoration: none;
+}
+.footer_list ul li,
+a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  font-family: var(--st-font);
+  color: #18181b;
+}
+.footer_list_social_media ul {
+  display: flex;
+  gap: 34px;
+}
+.footer_list_social_media ul li {
+  list-style: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+.twitter {
+  color: #27272a;
+}
+.facebook {
+  color: #18181b;
+}
+.instagram {
+  color: #27272a;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 33px;
+}
+.copyright_text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: var(--st-font);
+  color: #52525b;
+}
+.policy {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: var(--st-font);
+  color: #52525b;
+  text-decoration: none;
+}

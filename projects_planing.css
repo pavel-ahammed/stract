@@ -1,0 +1,125 @@
+.projects_palaning {
+  padding: 100px 151px 135px 151px;
+  position: relative;
+}
+.Plan_two_sec_shape {
+  position: absolute;
+  left: 50%;
+  bottom: 246px;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.projects_planing_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 183px;
+}
+.planing_sec_heading {
+  margin-bottom: 30px;
+  font-size: 42px;
+  font-weight: 600;
+  font-family: var(--heading-font);
+  color: var(--h1-and-text-color);
+  line-height: 52px;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-decoration-color: #22e27f;
+  text-decoration-skip-ink: none;
+  text-underline-offset: -5px;
+  letter-spacing: -4px;
+}
+.planing_sec_texts {
+  margin-bottom: 42px;
+  font-size: 16px;
+  font-family: var(--st-font);
+  font-weight: 400;
+  color: var(--h1-and-text-color);
+  opacity: 70%;
+  line-height: 26px;
+}
+.projects_palaning_sec_button {
+  padding: 16px 28px;
+  font-weight: 700;
+  font-family: var(--st-font);
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  background: var(--btn-color);
+  border: var(--btn-color);
+  border-radius: 10px;
+}
+.plane_two {
+  padding: 28px 45px 31px 25px;
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  position: relative;
+  background: #fff;
+}
+
+.plane_two_heading {
+  font-size: 21px;
+  font-weight: 600;
+  font-family: var(--st-font);
+  color: #000;
+  margin-bottom: 31px;
+}
+.plane_two_sec_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.boxes {
+  border: 1px solid #f1f1f1;
+  border-radius: 12.35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 16px 12px 15px;
+  width: 565px;
+}
+.topic_one {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.topic_two {
+  display: flex;
+}
+.group_control {
+  font-family: var(--st-font);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--h1-and-text-color);
+  letter-spacing: 0%;
+}
+
+.topic_two {
+  display: flex;
+  align-items: center;
+  gap: 20.3px;
+}
+.time {
+  padding: 11px 16px;
+  background: #f1f1f1;
+  border-radius: 9px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: var(--st-font);
+}
+.projects_palaning_sec_button_two {
+  padding: 16px 28px;
+  font-weight: 700;
+  font-family: var(--st-font);
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  background: var(--btn-color);
+  border: var(--btn-color);
+  border-radius: 10px;
+}
+.projects_palaning_sec_button_two_container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}

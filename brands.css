@@ -1,0 +1,56 @@
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 473px;
+  background: var(--brand-sec-bg);
+}
+.shape {
+  position: absolute;
+  right: 0px;
+  top: 164px;
+}
+.brands_wrapper {
+  width: 932.22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 94px;
+}
+.brands_wrapper h3 {
+  margin-top: 108px;
+}
+
+.brand_sec_under_line {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 34px;
+  letter-spacing: -2px;
+  font-family: var(--heading-font);
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: -3px;
+  text-decoration-color: #22e27f;
+  text-decoration-skip-ink: none;
+  background: var(--brand-sec-bg);
+}
+
+.brands_name {
+  display: flex;
+  flex-direction: column;
+  gap: 46.67px;
+  width: 100%;
+}
+.brands_name .brand_container_one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brands_name .brand_container_two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

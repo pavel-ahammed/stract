@@ -1,0 +1,103 @@
+.reviews_section {
+  width: 100%;
+  background: #3a3c40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviews_section_wrapper {
+  padding: 90px 152px 110px 152px;
+  max-width: 1600px;
+  flex-shrink: 0;
+  width: 100%;
+}
+.reviews_heading {
+  font-size: 42px;
+  font-weight: 600;
+  font-family: var(--heading-font);
+  color: #fff;
+  line-height: 52px;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-decoration-color: #22e27f;
+  text-decoration-skip-ink: none;
+  text-underline-offset: -5px;
+  letter-spacing: -4px;
+}
+
+.reviews_heading_container {
+  display: flex;
+  align-items: flex-end;
+  gap: 716px;
+}
+.arrow_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.slider_nav_arrow_left {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 6px 60px rgba(4, 37, 82, 0.1);
+  font-size: 18px;
+  color: #3a3c40;
+}
+.slider_nav_arrow_right {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #6b6b6b;
+  border-radius: 5px;
+  box-shadow: 0px 6px 60px rgba(4, 37, 82, 0.1);
+  font-size: 18px;
+  color: #fff;
+}
+
+.reviewer_card_wrapper {
+  padding: 36px 40px 40px 40px;
+  background: #fff;
+  max-width: 416px;
+  width: 100%;
+  border-radius: 10px;
+}
+.reviewer_card {
+  display: flex;
+  gap: 24px;
+  margin-top: 54px;
+}
+.reviewer_details {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.reviewer_name {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--st-font);
+  line-height: 30px;
+  color: var(--h1-and-text-color);
+}
+.reviewer_other_details {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--st-font);
+  line-height: 24px;
+  color: var(--h1-and-text-color);
+  opacity: 70%;
+}
+.reviews_text {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--st-font);
+  line-height: 28px;
+  color: var(--h1-and-text-color);
+  margin-top: 20px;
+}
